@@ -44,13 +44,13 @@
 // }
 
 // Conditional Rendering Option-6
-export default function Todo({ task, isDone }) {
-    let listItem;
-    if (isDone) {
-        listItem = <li>Finished: {task}</li>
-    }
-    else {
-        listItem = <li>Working On: {task}</li>
-    }
-    return listItem;
-}
+// export default function Todo({ task, isDone }) {
+//     let listItem;
+//     if (isDone) {
+//         listItem = <li>Finished: {task}</li>
+//     }
+//     else {
+//         listItem = <li>Working On: {task}</li>
+//     }
+//     return listItem;
+// }
